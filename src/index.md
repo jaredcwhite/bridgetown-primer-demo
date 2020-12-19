@@ -36,11 +36,11 @@ This is a demo of a [Bridgetown site](https://www.bridgetownrb.com) rendering th
   component.slot(:header) { "<h2>Header</h2>" }
   component.slot(:body) do %>
 
-<div markdown="1">
+<box-content markdown="block">
 
 Markdown **content** rendered _inside_ the component by [Bridgetown](https://www.bridgetownrb.com).
 
-</div>
+</box-content>
 
 <%
   end
@@ -56,11 +56,11 @@ end %>
   component.slot(:header) { "<h2>Header</h2>" }
   component.slot(:body) do %>
 
-<div markdown="1">
+<box-content markdown="block">
 
 Markdown **content** rendered _inside_ the component by [Bridgetown](https://www.bridgetownrb.com).
 
-</div>
+</box-content>
 
 <%%
   end
