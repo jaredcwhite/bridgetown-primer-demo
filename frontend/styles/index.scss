@@ -1,4 +1,4 @@
-$body-background: #fff;
+$body-background: #f2f2f2;
 $body-color: #444;
 
 body {
@@ -28,8 +28,11 @@ footer {
 
 main {
   margin: 2rem auto 4rem;
-  max-width: 60rem;
-  padding: 20px;
+  max-width: 65rem;
+  padding: 25px 25px 50px;
+  background: white;
+  box-shadow: 2px 3px 3px #ddd;
+  border-radius: 3px;
 }
 
 h2 {
