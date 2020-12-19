@@ -5,7 +5,7 @@ body {
   background: $body-background;
   color: $body-color;
   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
-  margin: 0;
+  margin: 0 8px;
   font-size: 17px;
 }
 
@@ -33,6 +33,10 @@ main {
   background: white;
   box-shadow: 2px 3px 3px #ddd;
   border-radius: 3px;
+  
+  @media (max-width: 500px) {
+    padding: 16px 16px 50px;
+  }
 }
 
 h2 {
