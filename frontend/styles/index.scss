@@ -1,5 +1,6 @@
 $body-background: #f2f2f2;
 $body-color: #444;
+$heading-color: black;
 
 body {
   background: $body-background;
@@ -18,6 +19,7 @@ a {
 h1 {
   font-weight: 900;
   font-size: 2.5rem;
+  color: $heading-color;
 }
 
 footer {
@@ -41,12 +43,14 @@ main {
 
 h2 {
   font-weight: 700;
+  color: $heading-color;
 }
 
 h3 {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
+  color: $heading-color;
 }
 
 
