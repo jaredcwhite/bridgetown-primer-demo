@@ -841,6 +841,26 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@primer/css@^16.1.2":
+  version "16.1.2"
+  resolved "https://registry.yarnpkg.com/@primer/css/-/css-16.1.2.tgz#ca766e0db8380ebf23c14e76120fb005e56e4bd9"
+  integrity sha512-Hl8x1RK/vYSW48y/nGNISHd7QYn6iPtLj1Fvqd8fiEKBTP1nUqB8pMvygG6HfEhT1lBJhTCnf1QcvLnSSkXw8A==
+  dependencies:
+    "@primer/octicons" "^9.1.1"
+    "@primer/primitives" "4.1.0"
+
+"@primer/octicons@^9.1.1":
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons/-/octicons-9.6.0.tgz#e195f2dd5f30b6918ad5d8ff224c12f778d02408"
+  integrity sha512-B5Wzk5izRXXz0JqEXJkVUtqhCXSpUKgqYkVwegMkp5sziBW+ksd9LPbONlCWyyLODwf9GsI2sBXekR7m+JJDBw==
+  dependencies:
+    object-assign "^4.1.1"
+
+"@primer/primitives@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.1.0.tgz#33d83b38e2021f294f446c41bca65f5d7ffd898a"
+  integrity sha512-bACUj3Xl2z5dnYKE/76BpNqN4/JXFngf26dbb7Goph2PU5wcf+Z2Kk3nXwtJPGG8JByO+FcU3gpZjLNoyuLMHQ==
+
 "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.6":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
