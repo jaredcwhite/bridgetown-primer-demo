@@ -16,10 +16,11 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #
 # Happy Bridgetowning!
 
-#gem "bridgetown", "~> 0.20"
 gem "bridgetown", github: "bridgetownrb/bridgetown", branch: "builtin-component"
+#gem "bridgetown", path: "../bridgetown"
 #gem "bridgetown-view-component", path: "../bridgetown-view-component", group: :bridgetown_plugins
 gem "bridgetown-view-component", github: "bridgetownrb/bridgetown-view-component", branch: "main", group: :bridgetown_plugins
 gem "primer_view_components", github: "primer/view_components", branch: "main"
 
 gem "serbea", group: :bridgetown_plugins
+#gem "serbea", path: "../serbea", group: :bridgetown_plugins

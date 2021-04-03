@@ -18,15 +18,15 @@ This is a demo of a [Bridgetown site](https://www.bridgetownrb.com) rendering th
 ### ButtonComponent
 
 <%= render(Primer::ButtonComponent.new) { "Default" } %>
-<%= render(Primer::ButtonComponent.new(button_type: :primary)) { "Primary" } %>
-<%= render(Primer::ButtonComponent.new(button_type: :danger)) { "Danger" } %>
-<%= render(Primer::ButtonComponent.new(button_type: :outline)) { "Outline" } %>
+<%= render(Primer::ButtonComponent.new(scheme: :primary)) { "Primary" } %>
+<%= render(Primer::ButtonComponent.new(scheme: :danger)) { "Danger" } %>
+<%= render(Primer::ButtonComponent.new(scheme: :outline)) { "Outline" } %>
 
 ```erb
 <%%= render(Primer::ButtonComponent.new) { "Default" } %>
-<%%= render(Primer::ButtonComponent.new(button_type: :primary)) { "Primary" } %>
-<%%= render(Primer::ButtonComponent.new(button_type: :danger)) { "Danger" } %>
-<%%= render(Primer::ButtonComponent.new(button_type: :outline)) { "Outline" } %>
+<%%= render(Primer::ButtonComponent.new(scheme: :primary)) { "Primary" } %>
+<%%= render(Primer::ButtonComponent.new(scheme: :danger)) { "Danger" } %>
+<%%= render(Primer::ButtonComponent.new(scheme: :outline)) { "Outline" } %>
 ```
 
 ### BorderBoxComponent
@@ -41,7 +41,7 @@ Markdown **content** rendered _inside_ the component by [Bridgetown](https://www
   component.row { "Row one" }
   component.row { "Row two" }
   component.footer do
-    render(Primer::ButtonComponent.new(button_type: :primary)) { "Action" }
+    render(Primer::ButtonComponent.new(scheme: :primary)) { "Action" }
   end
 end %>
 
@@ -56,7 +56,7 @@ Markdown **content** rendered _inside_ the component by [Bridgetown](https://www
   component.row { "Row one" }
   component.row { "Row two" }
   component.footer do
-    render(Primer::ButtonComponent.new(button_type: :primary)) { "Action" }
+    render(Primer::ButtonComponent.new(scheme: :primary)) { "Action" }
   end
 end %>
 ```
@@ -88,6 +88,6 @@ end %>
 ### FlashComponent
 
 <%= render(Primer::FlashComponent.new) { "This is a flash message!" } %>
-<%= render(Primer::FlashComponent.new(variant: :warning)) { "This is a warning flash message!" } %>
-<%= render(Primer::FlashComponent.new(variant: :danger)) { "This is a danger flash message!" } %>
-<%= render(Primer::FlashComponent.new(variant: :success)) { "This is a success flash message!" } %>
+<%= render(Primer::FlashComponent.new(scheme: :warning)) { "This is a warning flash message!" } %>
+<%= render(Primer::FlashComponent.new(scheme: :danger)) { "This is a danger flash message!" } %>
+<%= render(Primer::FlashComponent.new(scheme: :success)) { "This is a success flash message!" } %>
