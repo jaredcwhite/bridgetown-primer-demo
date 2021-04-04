@@ -32,7 +32,7 @@ This is a demo of a [Bridgetown site](https://www.bridgetownrb.com) rendering th
 ### BorderBoxComponent
 
 <%= render(Primer::BorderBoxComponent.new) do |component|
-  component.header { "<h2>Header</h2>" }
+  component.header { safe "<h2>Header</h2>" }
   component.body do
     markdownify do %>
 Markdown **content** rendered _inside_ the component by [Bridgetown](https://www.bridgetownrb.com).
@@ -47,7 +47,7 @@ end %>
 
 ```erb
 <%%= render(Primer::BorderBoxComponent.new) do |component|
-  component.header { "<h2>Header</h2>" }
+  component.header { safe "<h2>Header</h2>" }
   component.body do
     markdownify do %>
 Markdown **content** rendered _inside_ the component by [Bridgetown](https://www.bridgetownrb.com).

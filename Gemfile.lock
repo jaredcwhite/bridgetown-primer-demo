@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: https://github.com/bridgetownrb/bridgetown.git
-  revision: 568595162d3e62e737c7c772f7617f0aa9ae1c6a
+  revision: 51ca047417895a43ceaee3aa7b3e1bfa265f656c
   branch: builtin-component
   specs:
     bridgetown (0.20.0)
@@ -208,7 +208,7 @@ GEM
     rouge (3.26.0)
     ruby2_keywords (0.0.4)
     safe_yaml (1.0.5)
-    serbea (0.11.4)
+    serbea (0.12)
       activesupport (~> 6.0)
       erubi (>= 1.10)
       hash_with_dot_access (~> 1.1)
