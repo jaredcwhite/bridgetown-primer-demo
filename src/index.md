@@ -17,10 +17,12 @@ This is a demo of a [Bridgetown site](https://www.bridgetownrb.com) rendering th
 
 ### ButtonComponent
 
+<div>
 <%= render(Primer::ButtonComponent.new) { "Default" } %>
 <%= render(Primer::ButtonComponent.new(scheme: :primary)) { "Primary" } %>
 <%= render(Primer::ButtonComponent.new(scheme: :danger)) { "Danger" } %>
 <%= render(Primer::ButtonComponent.new(scheme: :outline)) { "Outline" } %>
+</div>
 
 ```erb
 <%%= render(Primer::ButtonComponent.new) { "Default" } %>
